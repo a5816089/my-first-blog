@@ -36,4 +36,6 @@ ax.add_patch(patch)
 ax.set_xlim(left[0], right[-1])
 ax.set_ylim(bottom.min(), top.max())
 
+plt.title('Histograms using Rectangles and PolyCollections')
+
 plt.show()
